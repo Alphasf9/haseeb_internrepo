@@ -34,7 +34,7 @@ const projectList = [
     title: " FUll stack ecommerce application 🎉",
     description:
       "A MERN stack e-commerce application features user authentication, product management, shopping cart functionality, and payment processing in a full-stack setup.",
-      url:"https://github.com/Alphasf9/fullStackBackhendApplication"
+    url: "https://github.com/Alphasf9/fullStackBackhendApplication"
   },
   {
     title: "A background colour changer",
@@ -64,7 +64,7 @@ const Portfolio = () => {
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
             src={image}
-            style={{ height: "90%", width: "100%", objectFit: "cover" }}
+            style={{ height: "90%", width: "100%", objectFit: "cover", animation: "1s ease-out 0s 1 slideInLeft" }}
             alt={imageAltText}
           />
         </div>
